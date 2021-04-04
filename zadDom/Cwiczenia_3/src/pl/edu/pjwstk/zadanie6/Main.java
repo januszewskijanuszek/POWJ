@@ -66,15 +66,15 @@ public class Main {
         }
         else if(player.getXp() > 15 && player.getXp() < 45){
             enemyTier = 4;
-            weapon = rnd.nextInt(2) + 2;
-            headArmor = rnd.nextInt(2) + 2;
-            bodyArmour = rnd.nextInt(2) + 2;
+            weapon = rnd.nextInt(2) + 1;
+            headArmor = rnd.nextInt(2) + 1;
+            bodyArmour = rnd.nextInt(2) + 1;
         }
         else if(player.getXp() > 45){
             enemyTier = 5;
-            weapon = rnd.nextInt(2) + 4;
-            headArmor = rnd.nextInt(2) + 4;
-            bodyArmour = rnd.nextInt(2) + 4;
+            weapon = rnd.nextInt(2) + 3;
+            headArmor = rnd.nextInt(2) + 3;
+            bodyArmour = rnd.nextInt(2) + 3;
         }
         Player enemy = new Player(0,Weapon.values()[weapon],ArmourBody.values()[bodyArmour],ArmourHead.values()[headArmor]);
         boolean won = true;

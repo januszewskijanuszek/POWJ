@@ -1,6 +1,5 @@
 package pl.edu.pjwstk.zadanie6;
 
-import com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable;
 
 import java.util.*;
 
