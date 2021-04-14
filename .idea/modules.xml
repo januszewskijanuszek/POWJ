@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/zadDom/Cwiczenia_1/Cwiczenia_1.iml" filepath="$PROJECT_DIR$/zadDom/Cwiczenia_1/Cwiczenia_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zadDom/Cwiczenia_2/Cwiczenia_2.iml" filepath="$PROJECT_DIR$/zadDom/Cwiczenia_2/Cwiczenia_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zadDom/Cwiczenia_3/Cwiczenia_3.iml" filepath="$PROJECT_DIR$/zadDom/Cwiczenia_3/Cwiczenia_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zadDom/Cwiczenia_4/Cwiczenia_4.iml" filepath="$PROJECT_DIR$/zadDom/Cwiczenia_4/Cwiczenia_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POWJ.iml" filepath="$PROJECT_DIR$/POWJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zadDom/zadDom.iml" filepath="$PROJECT_DIR$/zadDom/zadDom.iml" />
+    </modules>
+  </component>
+</project>
