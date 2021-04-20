@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de29a3a9-cfd4-4235-a069-e2fa96c21f2a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/zadDom/Cwiczenia_1/Cwiczenia_1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadDom/Cwiczenia_2/Cwiczenia_2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadDom/Cwiczenia_3/Cwiczenia_3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadDom/Cwiczenia_4/Cwiczenia_4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,15 +63,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1617880921966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1617880921966" />
-    <state x="342" y="140" key="new project wizard" timestamp="1617880945899">
+    <state x="342" y="140" key="new project wizard" timestamp="1618950634539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="342" y="140" key="new project wizard/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1617880945899" />
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1618950634539" />
   </component>
 </project>
