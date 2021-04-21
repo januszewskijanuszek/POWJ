@@ -23,6 +23,14 @@ public class Order {
         return counter;
     }
 
+    // Przepraszam za młyn w kodzie, ale się spieszyłem ponieważ mam kolosa z znalizy
+    // ------------------------------------------------------------------------------
+    // arr1 - tablica która zawiera w sobie randomowo wylowowane liczby w przedziale ilości enumów "Goods" - jej wielkośc zależy od wpisanej ilości max size
+    // arr2 - tablica która zawiera w sobie posegregowane ilości danych produktów - jej wielkość zależy od ilości enumów w "Goods"
+    // arrayLenght - int który liczy ile produktów jest niezerowych
+    // counter, counter1 - inty pomocnicze
+    // arrFinal - tablica która nie ma w sobie tylko niezerowe produkty - jej wielkość zależy od inta arrayLenght
+
     private void createPosition(){
         int[] arr1 = new int[maxSize];
         for(int i = 0 ; i < maxSize ; i++){
@@ -39,9 +47,9 @@ public class Order {
         }
         int[] arrFinal = new int[arrayLength];
         int counter1 = 0;
-        for(int i = 0 ; i < arr2.length ; i++){
-            if(arr2[i] != 0){
-                arrFinal[counter1] = arr2[i];
+        for (int value : arr2) {
+            if (value != 0) {
+                arrFinal[counter1] = value;
                 counter1++;
             }
         }
