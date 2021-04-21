@@ -23,8 +23,7 @@ public class Time {
     }
 
     public Time addTime(int newHour, int newMinutes){
-        Time clock = new Time(newHour + hour, newMinutes + minutes);
-        return clock;
+        return new Time(newHour + hour, newMinutes + minutes);
     }
 
     public void multiple(int multiple){
