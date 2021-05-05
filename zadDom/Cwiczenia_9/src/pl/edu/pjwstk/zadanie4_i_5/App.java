@@ -1,4 +1,4 @@
-package pl.edu.pjwstk.zadanie;
+package pl.edu.pjwstk.zadanie4_i_5;
 
 import java.io.File;
 import java.io.IOException;
