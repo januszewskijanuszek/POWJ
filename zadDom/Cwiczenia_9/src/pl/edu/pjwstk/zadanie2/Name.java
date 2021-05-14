@@ -1,5 +1,6 @@
 package pl.edu.pjwstk.zadanie2;
 
+// To jest tylko po to aby losowo dobierało imię nazwisko i maksymalną prędkość
 public enum Name {
     PLAYER1("Mariusz",      "Walaszek", 120),
     PLAYER2("Stefan",       "Battory",  100),
