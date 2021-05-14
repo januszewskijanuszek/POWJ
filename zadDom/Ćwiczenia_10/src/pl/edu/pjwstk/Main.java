@@ -1,7 +1,8 @@
 package pl.edu.pjwstk;
 
-public class App {
+public class Main {
+
     public static void main(String[] args) {
-        String siema;
+	// write your code here
     }
 }

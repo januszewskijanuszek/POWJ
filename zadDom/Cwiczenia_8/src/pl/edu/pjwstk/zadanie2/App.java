@@ -1,28 +1,28 @@
 package pl.edu.pjwstk.zadanie2;
 
-import java.util.Scanner;
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.*;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class App {
-    // Creating enum EXIT
-    private static final String EXIT = "exit";
-    // BankAccount with constructor
-    private final static BankAccount account = new BankAccount(Math.random() * 10000);
-
-    public static void main(String[] args) throws Exception {
-        // Scanner object
-        final Scanner scan = new Scanner(System.in);
-        // I prefer not false declaration
-        boolean isExit = true;
-        while(isExit){
-            // line == input
-            final String input = scan.next();
-            // If input is equal to enum EXIT then change isExit to false and than exit program
-            if(EXIT.equals(input)){
-                isExit = false;
+    public static void main(String[] args) throws IOException {
+        File input = new File("src/pl/edu/pjwstk/zadanie2/input.txt");
+        if(input.exists()){
+            Stream<String> linesFromFile = Files.lines(input.toPath());
+            List<String> listOfLines = linesFromFile.collect(Collectors.toList());
+            for (String line : listOfLines) {
+                try {
+                    int lineInt = Integer.parseInt(line);
+                    System.out.println(lineInt + " - Is a number!");
+                } catch (NumberFormatException ignored) {
+                    System.out.println(line + " - Is not a number!");
+                }
             }
-            else{
-                account.transaction(input);
-            }
+        } else{
+            System.out.println("Error, file not found!");
         }
     }
 }
