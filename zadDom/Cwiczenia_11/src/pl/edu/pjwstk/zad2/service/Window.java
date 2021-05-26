@@ -1,8 +1,8 @@
-package pl.edu.pjwstk.zad3.service;
+package pl.edu.pjwstk.zad2.service;
 
-import pl.edu.pjwstk.zad3.items.Button;
-import pl.edu.pjwstk.zad3.items.Randomise;
-import pl.edu.pjwstk.zad3.items.TextField;
+import pl.edu.pjwstk.zad2.items.Button;
+import pl.edu.pjwstk.zad2.items.Randomise;
+import pl.edu.pjwstk.zad2.items.TextField;
 
 import javax.swing.*;
 import java.awt.*;
@@ -27,7 +27,7 @@ public class Window extends JFrame implements ActionListener {
         label.setText("Chose number between 1 and 100");
         button.addActionListener(this);
 
-        this.setTitle("zadanie 3");
+        this.setTitle("zadanie 2");
         this.setVisible(true);
         this.setResizable(false);
         this.setLayout(new FlowLayout());

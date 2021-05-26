@@ -1,4 +1,4 @@
-package pl.edu.pjwstk.zad3.items;
+package pl.edu.pjwstk.zad2.items;
 
 import javax.swing.*;
 import java.awt.*;
