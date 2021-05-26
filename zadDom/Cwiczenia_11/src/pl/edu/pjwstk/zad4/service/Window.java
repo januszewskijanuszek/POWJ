@@ -69,7 +69,7 @@ public class Window extends JFrame implements AppletListener {
         }
         // Settings
         this.setIconImage(logoIcon.getImage());
-        this.setTitle("chata");
+        this.setTitle("zadanie 4");
         this.setVisible(true);                  // Window is visible
         this.setSize(1100,700);      // Setting size of window
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);    // Close button is working
