@@ -12,7 +12,7 @@ import java.awt.event.WindowEvent;
 
 public class Window extends JFrame implements ActionListener {
     // Icon
-    private final ImageIcon logoIcon = new ImageIcon("src/pl/edu/pjwstk/zad3/logo.png");
+    private final ImageIcon logoIcon = new ImageIcon("src/pl/edu/pjwstk/zad2/logo.png");
 
     // Custom classes
     private Button button = new Button(50,25,10,10,"Upload");
