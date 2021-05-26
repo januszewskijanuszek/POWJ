@@ -22,7 +22,7 @@ public class Window extends JFrame implements AppletListener {
     private final ImageIcon polishFlag          = new ImageIcon("src/pl/edu/pjwstk/zad4/items/flags/polishFlag.png");
     private final ImageIcon naziGermanyFlag     = new ImageIcon("src/pl/edu/pjwstk/zad4/items/flags/naziGermanyFlag.png");
     private final ImageIcon sovietFlag          = new ImageIcon("src/pl/edu/pjwstk/zad4/items/flags/sovietFlag.png");
-    private final ImageIcon imperialJapanFlag   = new ImageIcon("src/pl/edu/pjwstk/zad4/items/flags/imperialJapan.png");
+    private final ImageIcon imperialJapanFlag   = new ImageIcon("src/pl/edu/pjwstk/zad4/items/flags/imperialJapanFlag.png");
     private final ImageIcon britishFlag         = new ImageIcon("src/pl/edu/pjwstk/zad4/items/flags/britishFlag.png");
 
     public Window(){
@@ -69,8 +69,9 @@ public class Window extends JFrame implements AppletListener {
         }
         // Settings
         this.setIconImage(logoIcon.getImage());
+        this.setTitle("chata");
         this.setVisible(true);                  // Window is visible
-        this.setSize(1500,1000);      // Setting size of window
+        this.setSize(1100,700);      // Setting size of window
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);    // Close button is working
         this.setLayout(new FlowLayout());
         for(int i = 0 ; i < winner.length ; i++){
